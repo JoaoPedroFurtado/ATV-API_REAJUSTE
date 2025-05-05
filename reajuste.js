@@ -85,8 +85,6 @@ app.get("/", (req, res) => {
         <p><strong>Matrícula:</strong> ${matricula}</p>
         <hr>
         <p><strong>Salário com reajuste:</strong> R$ ${salarioReajustado.toFixed(2)}</p>
-        <p><strong>${tempoEmpresa <= 10 ? "Desconto" : "Acréscimo"} aplicado:</strong> R$ ${tempoEmpresa <= 10 ? valorDesconto.toFixed(2) : valorAcrescimo.toFixed(2)}</p>
-        <p><strong>💰 Salário final:</strong> <span style="color:green">R$ ${valorFinal.toFixed(2)}</span></p>
     `);
 });
 
