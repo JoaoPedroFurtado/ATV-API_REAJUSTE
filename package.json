@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Erich-z/Reajuste-Salarial.git"
+    "url": "git+https://github.com/JoaoPedroFurtado/ATV-API_REAJUSTE.git"
   },
   "keywords": [],
   "author": "João Pedro",
   "license": "ISC",
   "description": "",
-  "homepage": "https://github.com/Erich-z/Reajuste-Salarial#readme",
+  "homepage": "https://github.com/JoaoPedroFurtado/ATV-API_REAJUSTE#readme",
   "dependencies": {
     "express": "^5.1.0"
   }
