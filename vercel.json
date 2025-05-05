@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "reajuste.js"
+        "dest": "index.js"
       }
     ]
   }
