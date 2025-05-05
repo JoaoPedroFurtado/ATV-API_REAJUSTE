@@ -84,10 +84,12 @@ app.get("/", (req, res) => {
         <p><strong>Tempo de empresa:</strong> ${tempoEmpresa} anos</p>
         <p><strong>Matrícula:</strong> ${matricula}</p>
         <hr>
-        <p><strong>Salário com reajuste:</strong> R$ ${salarioReajustado.toFixed(2)}</p>
+        <p><strong>💰 Salário final:</strong> <span style="color:green">R$ ${valorFinal.toFixed(2)}</span></p>
     `);
 });
 
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
+
+export default app;

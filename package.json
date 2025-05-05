@@ -1,21 +1,24 @@
 {
-  "name": "atv-api_reajuste",
+  "name": "reajuste-salarial",
   "version": "1.0.0",
-  "main": "reajuste.js",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-    "start": "node reajuste.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "build": "echo 'Build completo!'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["api", "salario", "reajuste"],
-  "author": "João Pedro Furtado",
-  "license": "MIT",
-  "description": "API para calcular reajuste de salário com base na idade, sexo, tempo de casa e salário base.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoaoPedroFurtado/ATV-API_REAJUSTE.git"
+    "url": "git+https://github.com/Erich-z/Reajuste-Salarial.git"
   },
+  "keywords": [],
+  "author": "João Pedro",
+  "license": "ISC",
+  "description": "",
+  "homepage": "https://github.com/Erich-z/Reajuste-Salarial#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
+    "express": "^5.1.0"
   }
 }
